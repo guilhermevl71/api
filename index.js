@@ -55,7 +55,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 1500,
         connected: 500,
         softwareUpdates: 750,
-        img: "/img/mustang.png",
+        img: "https://desafio-angular-definitivo.onrender.com/img/mustang.png",
       },
       {
         id: 3,
