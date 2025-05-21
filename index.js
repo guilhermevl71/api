@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public"))); // caso tenha pasta de imagens
+app.use(express.static(path.join(__dirname, "img"))); // caso tenha pasta de imagens
 
 app.post("/login", async (req, res) => {
   try {
@@ -55,7 +55,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 1500,
         connected: 500,
         softwareUpdates: 750,
-        img: "./ranger.png",
+        img: "https://desafio-angular-definitivo.onrender.com/img/broncoSport.png",
       },
       {
         id: 3,
