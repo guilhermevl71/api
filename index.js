@@ -47,7 +47,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 145760,
         connected: 70000,
         softwareUpdates: 27550,
-        img: "https://cdn.motor1.com/images/mgl/AkB8vL/s3/fiat-mobi-2023.jpg",
+        img: "https://desafio-angular-definitivo.onrender.com/img/ranger.png",
       },
       {
         id: 2,
@@ -55,7 +55,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 1500,
         connected: 500,
         softwareUpdates: 750,
-        img: "./img/broncoSport.png",
+        img: "https://desafio-angular-definitivo.onrender.com/img/mustang.png",
       },
       {
         id: 3,
@@ -63,7 +63,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 4560,
         connected: 4000,
         softwareUpdates: 3050,
-        img: "./territory.png",
+        img: "https://desafio-angular-definitivo.onrender.com/img/territory.png",
       },
       {
         id: 4,
