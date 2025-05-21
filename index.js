@@ -55,7 +55,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 1500,
         connected: 500,
         softwareUpdates: 750,
-        img: "/ranger.png",
+        img: "./ranger.png",
       },
       {
         id: 3,
@@ -63,7 +63,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 4560,
         connected: 4000,
         softwareUpdates: 3050,
-        img: "https://desafio-angular-definitivo.onrender.com/territory.png",
+        img: "./territory.png",
       },
       {
         id: 4,
